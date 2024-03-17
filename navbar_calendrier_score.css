@@ -50,7 +50,11 @@
 }
 
 .tab-menu::-webkit-scrollbar{
-    display: none;
+    display: none; /* Safari and Chrome */
+}
+.tab-menu {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .tab-btn {
@@ -114,13 +118,15 @@
 .tab {
     position:relative;
     transform: translateX(25px);
-    content-visibility: hidden;
+    display: none;
+    /* content-visibility: hidden; */
     opacity: 0;
 }
 
 .tab.active {
     transform: translateX(0);
-    content-visibility: visible;
+    display: block;
+    /* content-visibility: visible; */
     opacity: 1;
     transition: 1s ease;
 }

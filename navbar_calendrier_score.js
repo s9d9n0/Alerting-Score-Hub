@@ -56,7 +56,7 @@ let activeDrag = false;
 tabMenu.addEventListener("mousemove", (drag) => {
     if(!activeDrag) return;
     tabMenu.scrollLeft -= drag.movementX;
-    IconVisibility();
+    //IconVisibility();
     tabMenu.classList.add("dragging");
 });
 
