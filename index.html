@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="utf-8"> -->
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" cache-Control="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300">
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./jquery-3.7.1.js"></script>
+
+    <script defer>
+        $(document).ready(function () {
+            const tableMois = [                     "_202309",
+                                "_202310","_202311","_202312",
+                                "_202401","_202402","_202403",
+                                "_202404","_202405","_202406",
+                                "_202407","_202408"];
+            tableMois.forEach((item)=> {
+                $('.mois'+item).load('./tabmois/mois'+item+'.html');
+            });
+        });
+    </script>
+
+    <title>calendrier_score</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-gepex.png">
+
+    <!-- Appel vers unicons iconscout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="styles_calendrier_score.css" />
+    <link rel="stylesheet" type="text/css" href="navbar_calendrier_score.css" />
+</head>
+<body>
+
+    <!-- <div class="disco">
+        <h1><span class="red">RED LIGHTNING</span> <span class="white">,</span> <span class="green">GREEN PULSATION</span></h1>
+        <h2>
+            <img src="img/discoball.png" alt="discoball">
+            <p>!! VAMOS A LA DISCOTHECA !!</p>
+        </h2>
+    </div> -->
+
+    <div class="titreGlobal">
+        <img src="img/thermometre.png" alt="thermometre_Gauche"/>
+        <div class="titre">    
+            <h2 class="baromètre">Baromètre SI</h2>
+            <h2 class="alerting">Alerting-Score</h2>
+        </div>    
+        <img src="img/thermometre.png" alt="thermometre_Droite"/>
+    </div>
+
+    <div id="chart"></div>
+    <div id="chart2"></div>
+
+    <div class="tab-nav-bar">
+        <div class="tab-navigation">
+            <i class="fa-solid fa-angle-left"></i>
+            <i class="fa-solid fa-angle-right"></i>
+            <ul class="tab-menu">
+                <li class="tab-btn">Sept. 23</li>
+                <li class="tab-btn">Oct. 23</li>
+                <li class="tab-btn">Nov. 23</li>
+                <li class="tab-btn">Déc. 23</li>
+                <li class="tab-btn">Janv. 24</li>
+                <li class="tab-btn">Févr. 24</li>
+                <li class="tab-btn">Mars 24</li>
+                <li class="tab-btn active">Avr. 24</li>
+                <li class="tab-btn">Mai 24</li>
+                <li class="tab-btn">Juin 24</li>
+                <li class="tab-btn">Juil. 24</li>
+                <li class="tab-btn">Août 24</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="tab mois_202309"></div>
+    <div class="tab mois_202310"></div>
+    <div class="tab mois_202311"></div>
+    <div class="tab mois_202312"></div>
+    <div class="tab mois_202401"></div>
+    <div class="tab mois_202402"></div>
+    <div class="tab mois_202403"></div>
+    <div class="tab mois_202404"></div>
+    <div class="tab mois_202405"></div>
+    <div class="tab mois_202406"></div>
+    <div class="tab mois_202407"></div>
+    <div class="tab mois_202408"></div>
+
+    <p class="basdepage"><i>Création 4nt0n10 S9D9N0</i></p> 
+    <br />
+
+    <script src="chart.js"></script>
+
+    <script src="navbar_calendrier_score.js"></script>  
+
+</body>
+</html>
