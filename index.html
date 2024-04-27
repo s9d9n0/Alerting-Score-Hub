@@ -7,7 +7,10 @@
     <meta http-equiv="refresh" content="300">
 
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    
     <script src="./jquery-3.7.1.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js"></script> -->
+    
 
     <script defer>
         $(document).ready(function () {
@@ -20,7 +23,49 @@
                 $('.mois'+item).load('./tabmois/mois'+item+'.html');
             });
         });
+
+        // const response = fetch('/tabmois/mois_202404.html');
+        // const body = response.text();
+        // console.log(body);
+        // document.querySelector('.mois_202404').innerHTML = body;
+
+        // fetch("./tabmois/mois_202404.html")
+        //     .then(response => {
+        //         return response.text()
+        //     })
+        //     .then(data => {
+        //         document.querySelector('.mois_202404').innerHTML = data;
+        //     })
+
+        // async function fetchMyDocument() {      
+        //     try {
+        //         let response = await fetch('./tabmois/mois_202404.html'); // Gets a promise
+        //         console.log(response.text);
+        //         document.querySelector('.mois_202404').innerHTML = await response.text(); // Replaces body with response
+        //     } catch (err) {
+        //         console.log('Fetch error:' + err); // Error handling
+        //     }
+        // }
+
+        // fetchMyDocument();
+
     </script>
+
+
+    <!-- <script> </script> src="https://unpkg.com/htmlincludejs@1.0.0/index.js"> -->
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded",function(){
+            let e=document.getElementsByTagName("include");
+            for(var t=0;t<e.length;t++){
+                let a=e[t];
+                n(e[t].attributes.src.value,function(e){
+                    a.insertAdjacentHTML("afterend",e),a.remove()
+                })}
+                function n(e,t){
+                    fetch(e).then(e=>e.text()).then(e=>t(e))
+                }
+            });
+    </script> -->
 
     <title>calendrier_score</title>
     <link rel="icon" type="image/x-icon" href="img/favicon-gepex.png">
@@ -80,7 +125,8 @@
     <div class="tab mois_202401"></div>
     <div class="tab mois_202402"></div>
     <div class="tab mois_202403"></div>
-    <div class="tab mois_202404"></div>
+    <!-- <div class="tab mois_202404"><include src="tabmois/mois_202404.html"></include></div> -->
+    <div class="tab mois_202404 active"></div>
     <div class="tab mois_202405"></div>
     <div class="tab mois_202406"></div>
     <div class="tab mois_202407"></div>
@@ -93,5 +139,8 @@
 
     <script src="navbar_calendrier_score.js"></script>  
 
+    <!-- <script src="tabmois/remplissageMois.js"></script> -->
+
+    <!-- <script src="https://unpkg.com/alpinejs" defer></script> -->
 </body>
 </html>
