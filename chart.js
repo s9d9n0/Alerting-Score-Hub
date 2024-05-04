@@ -260,7 +260,7 @@ var options = {
 //                 tickAmount: 1
 //               },
         xaxis: {
-                categories: [                        "31 Aou 2023",      
+                categories: [                        null,      
                                                                     "01 Sep 2023", "02 Sep 2023", "03 Sep 2023",
         "04 Sep 2023", "05 Sep 2023", "06 Sep 2023", "07 Sep 2023", "08 Sep 2023", "09 Sep 2023", "10 Sep 2023",
         "11 Sep 2023", "12 Sep 2023", "13 Sep 2023", "14 Sep 2023", "15 Sep 2023", "16 Sep 2023", "17 Sep 2023",
