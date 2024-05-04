@@ -8,8 +8,7 @@ var options = {
         //         data: [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200]},
                 {name: "Q9",
                 type: 'line',
-                data: [                         
-                        // null,
+                data: [                         null,
 // sept. 24
                                                         null,   null,   null,
                         null,   null,   306671, 299585, 299585, 299585, 299585,
@@ -86,8 +85,7 @@ var options = {
                 ]},
                 {name: "score",
                 type: 'line',
-                data: [                         
-                        // 295912,
+                data: [                         295912,
 // sept. 23
                                                         289978, 297221, 309274,
                         300598, 281273, 277012, 273145, 252522, 249245, 275296,
@@ -164,8 +162,7 @@ var options = {
                 ]},
                 {name: "Q1",
                 type: 'line',
-                data: [                         
-                        // null,
+                data: [                         null,
 // sept. 23
                                                         null,   null,   null,
                         null,   null,   263707, 263707, 263707, 263707, 256198,
@@ -263,7 +260,8 @@ var options = {
 //                 tickAmount: 1
 //               },
         xaxis: {
-                categories: [                                       "01 Sep 2023", "02 Sep 2023", "03 Sep 2023",
+                categories: [                        "31 Aou 2023",      
+                                                                    "01 Sep 2023", "02 Sep 2023", "03 Sep 2023",
         "04 Sep 2023", "05 Sep 2023", "06 Sep 2023", "07 Sep 2023", "08 Sep 2023", "09 Sep 2023", "10 Sep 2023",
         "11 Sep 2023", "12 Sep 2023", "13 Sep 2023", "14 Sep 2023", "15 Sep 2023", "16 Sep 2023", "17 Sep 2023",
         "18 Sep 2023", "19 Sep 2023", "20 Sep 2023", "21 Sep 2023", "22 Sep 2023", "23 Sep 2023", "24 Sep 2023",
