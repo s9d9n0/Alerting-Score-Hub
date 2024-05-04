@@ -334,7 +334,7 @@ var options = {
 
                 ],
                 offsetY:-5,
-                type:"datetime",
+                // type:"datetime",
                 lines: {show: false}
         },
         yaxis: {title: {text: 'score'},
