@@ -8,7 +8,8 @@ var options = {
         //         data: [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200]},
                 {name: "Q9",
                 type: 'line',
-                data: [                         null,
+                data: [                         
+                        // null,
 // sept. 24
                                                         null,   null,   null,
                         null,   null,   306671, 299585, 299585, 299585, 299585,
@@ -85,7 +86,8 @@ var options = {
                 ]},
                 {name: "score",
                 type: 'line',
-                data: [                         295912,
+                data: [                         
+                        // 295912,
 // sept. 23
                                                         289978, 297221, 309274,
                         300598, 281273, 277012, 273145, 252522, 249245, 275296,
@@ -162,7 +164,8 @@ var options = {
                 ]},
                 {name: "Q1",
                 type: 'line',
-                data: [                         null,
+                data: [                         
+                        // null,
 // sept. 23
                                                         null,   null,   null,
                         null,   null,   263707, 263707, 263707, 263707, 256198,
