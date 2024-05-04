@@ -239,7 +239,7 @@ var options = {
                 ]}
         ],
         colors: [/*'#f08080',*/ '#E91E63', '#00008b', '#32cd32'], /*#fffafa, '#E91E63'*/
-//    tooltip: {enabledOnSeries: [0]},
+        tooltip: {enabledOnSeries: [1]},
         dataLabels: {enabled: false},
         stroke: {
         width: [/*1,*/ 2, 4 , 2],
@@ -261,7 +261,7 @@ var options = {
 //               },
         xaxis: {
                 categories: [                        "jeu 31 août",
-                
+
                                                                     "ven 01 sept", "sam 02 sept", "dim 03 sept",
         "lun 04 sept", "mar 05 sept", "mer 06 sept", "jeu 07 sept", "ven 08 sept", "sam 09 sept", "dim 10 sept",
         "lun 11 sept", "mar 12 sept", "mer 13 sept", "jeu 14 sept", "ven 15 sept", "sam 16 sept", "dim 17 sept",
