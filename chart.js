@@ -59,10 +59,10 @@ var options = {
                         323537, 323537, 323537, 322573, 322573, 322573, 322573,
                         322573, 333209,
 // mai. 24
-                                    333209, 322573, 321483, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
+                                        333209, 322573, 321483, 294245, 294245,
+                        294245, 291911, 291911, 291311, 291311, 280742, 280742,
+                        280742, 262583, 262583, 275227, 275227, 275227, 262015,
+                        250482, 245330, 264556, null, null, null, null,
                         null, null, null, null, null, 
 // juin. 24
                                                       null, null,
@@ -136,10 +136,10 @@ var options = {
                         294719, 283314, 289047, 278020, 293138, 252640, 262160,
                         353229, 239309,
 // mai. 24
-                                    254555, 244214, 248333, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
+                                        254555, 244214, 248333, 287049, 266024,
+                        252661, 245396, 239353, 221129, 225980, 222060, 225830,
+                        221658, 224549, 279171, 217083, 245175, 218553, 214028,
+                        238784, 272862, 230770, null, null, null, null,
                         null, null, null, null, null, 
 // juin. 24
                                                       null, null,
@@ -213,10 +213,10 @@ var options = {
                         244246, 249093, 249093, 249093, 249093, 249093, 250349,
                         254160, 254160,
 // mai. 24
-                                    250075, 250075, 245642, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
-                        null, null, null, null, null, null, null,
+                                        250075, 250075, 245642, 245450, 245450,
+                        245450, 245450, 244569, 240811, 239322, 229979, 223236,
+                        223191, 221779, 221779, 221779, 221288, 221288, 219326,
+                        217524, 217524, 217524, null, null, null, null,
                         null, null, null, null, null, 
 // juin. 24
                                                       null, null,
@@ -242,12 +242,12 @@ var options = {
         tooltip: {enabledOnSeries: [1]},
         dataLabels: {enabled: false},
         stroke: {
-        width: [/*1,*/ 2, 4 , 2],
-        curve: [/*'smooth',*/'smooth','straight' ,'smooth'],
-        dashArray: [/*5,*/ 3, 0 , 3]
-        },
-        title: {text: "Evolution sur la période sept.23-sept.24",
-        align: 'left', offsetX: 40, offsetY: 20},
+                width: [/*1,*/ 2, 4 , 2],
+                curve: [/*'smooth',*/'smooth','straight' ,'smooth'],
+                dashArray: [/*5,*/ 3, 0 , 3]
+                },
+        title: {text: "Evolution sur la période septembre 2023 - septembre 2024",
+                align: 'left', offsetX: 40, offsetY: 20},
 //    grid: {row: {colors: ['#ffffff', 'transparent'], 
     // takes an array which will be repeated on columns
 //               opacity: 0},
@@ -412,7 +412,8 @@ var options = {
                 // type:"datetime",
                 lines: {show: false}
         },
-        yaxis: {title: {text: 'score'},
+        yaxis: {show: false,
+                // title: {text: 'score'},
                 lines:{show: false}},
         legend: {show: false,
                 position: 'top',
