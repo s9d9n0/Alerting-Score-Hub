@@ -412,7 +412,7 @@ var options = {
                 // type:"datetime",
                 lines: {show: false}
         },
-        yaxis: {show: false,
+        yaxis: {show: true,
                 // title: {text: 'score'},
                 lines:{show: false}},
         legend: {show: false,
