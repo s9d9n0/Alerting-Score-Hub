@@ -6,13 +6,13 @@
 grille = document.querySelector("div."+libMois+libAn);
 // console.log(grille);
 
-debFin = `  <div class="item-day"><p class="libday">LUNDI</p></div>
-            <div class="item-day"><p class="libday">MARDI</p></div>
-            <div class="item-day"><p class="libday">MERCREDI</p></div>
-            <div class="item-day"><p class="libday">JEUDI</p></div>
-            <div class="item-day"><p class="libday">VENDREDI</p></div>
-            <div class="item-day we-day"><p class="libday">SAMEDI</p></div>
-            <div class="item-day we-day"><p class="libday">DIMANCHE</p></div>`;
+debFin = `  <div class="item-day"><p class="libday">MONTAG</p></div>
+            <div class="item-day"><p class="libday">DIENSTAG</p></div>
+            <div class="item-day"><p class="libday">MITTWOCH</p></div>
+            <div class="item-day"><p class="libday">DONNERSTAG</p></div>
+            <div class="item-day"><p class="libday">FREITAG</p></div>
+            <div class="item-day we-day"><p class="libday">SAMSTAG</p></div>
+            <div class="item-day we-day"><p class="libday">SONNTAG</p></div>`;
 sem = ` <div class="item-cell">
             <p class="day"><span class="jlv"></span></p>
             <p class="score"></p>
