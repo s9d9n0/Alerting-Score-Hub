@@ -527,7 +527,7 @@ p.basdepage, i.visite {
 }
 
 img.visite {
-    bottom:0px;
+    position:0px;
     width:80px;
     height:16px;
 }
