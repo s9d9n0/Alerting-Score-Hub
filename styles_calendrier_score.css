@@ -520,14 +520,15 @@ img {
 /* **************************************************************************************** */
 /* **************************************************************************************** */
 
-p.basdepage {
+p.basdepage, p.visite {
     padding-left:15px;
     text-align: left;
     color:white;
 }
 
-img.visite {
-    width:100px;
-    height:20px;
+p.visite img {
+    bottom:0;
+    width:80px;
+    height:16px;
 }
 
