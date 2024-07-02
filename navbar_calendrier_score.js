@@ -4,7 +4,7 @@ const btnLeft = document.querySelector(".fa-angle-left");
 const btnRight = document.querySelector(".fa-angle-right");
 const tabMenu = document.querySelector(".tab-menu");
 
-tabMenu.scrollLeft=730;
+tabMenu.scrollLeft=830;
 
 let scrollLeftValue = Math.ceil(tabMenu.scrollLeft);
 console.log(scrollLeftValue);
